@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:18.0
+    ports:
+      - 5434:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_DB: book-store
+      POSTGRES_PASSWORD: Admin123
+      
